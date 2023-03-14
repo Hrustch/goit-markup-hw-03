@@ -16,7 +16,11 @@ ul {
     padding: 0;
 }
 
-
+img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
 
 :root {
     --main_color: #4d5ae5;
@@ -50,6 +54,14 @@ body {
 }
 /* ------------------------------ */
 /* HW_3 */
+
+
+/* ------------------------------ */
+
+/* ------------------------------ */
+
+
+
 .section {
     padding-bottom: 120px;
     padding-top: 120px;
@@ -342,6 +354,9 @@ body {
     display: flex;
     gap: 24px;
 }
+.examples_section {
+    padding-top: 0;
+}
 .examples_section h2 {
     margin-bottom: 72px;
     font-weight: 700;
@@ -364,6 +379,7 @@ body {
     text-transform: capitalize;
     color: var(--dark_color);
     text-align: center;
+    margin-bottom: 72px;
 }
 .team_section_ul{
     text-align: center;
@@ -377,6 +393,7 @@ body {
 }
 
 .team_card {
+    background-color: var(--white_color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
